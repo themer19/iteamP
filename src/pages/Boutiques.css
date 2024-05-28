@@ -1,0 +1,56 @@
+.wrapper658 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 650px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .wrapper658 {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #fff4e6;
+  }
+  
+  .wrapper658 > div {
+    border: 10px solid #000000;
+    border-radius: 5px;
+    background-color: #3d3f3f;
+    padding: 1em;
+    color: #000000;
+  }
+
+  .p1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.imageB {
+  width: 300px; /* Définissez la largeur souhaitée */
+  height: auto; /* Gardez la proportion de l'image */
+}
+.centerB {
+  margin: 50;
+  position: absolute;
+  top: 70%;
+  left: 14%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.centerB2 {
+  margin: 50;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.centerB3 {
+  margin: 50;
+  position: absolute;
+  top: 70%;
+  left: 85%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
